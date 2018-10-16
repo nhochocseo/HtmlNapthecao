@@ -1,0 +1,219 @@
+textarea { resize: vertical; }
+input[type="file"] {
+    display: none;
+}
+.image_card{
+    width:120px
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.text-green{
+    color: green;
+    font-weight: bold;
+}
+.text-red{
+    color: red;
+    font-weight: bold;
+}
+.text-blue{
+    color:blue;
+    font-weight: bold;
+}
+.panel_exchange_form {
+    padding: 10px;
+    border: 1px solid #ece7e7;
+    background: #fbfbfb;
+    border-radius: 3px;
+    margin: 10px;
+}
+.panel_exchange_form .form-group {
+    margin-bottom: 5px;
+}
+.panel_exchange_form .form-group label {
+    margin-bottom: 0px !important;
+}
+.modal {
+    display:block !important;
+}
+.datepicker_c .react-date-picker__button {
+    border-radius: 2px;
+    border: thin solid #c1c1c1;
+    margin-left: 3px;
+    margin-right: 5px;
+}
+.pointer{
+    cursor: pointer;
+}
+.input-sm-ct {
+    height: 32px;
+    font-size: 13px;
+    padding: 2px 10px;
+}
+.provider_float{
+    float: right;
+    margin-right: 0px;
+    margin-top: -30px;
+    border: 1px solid #e2e2e2;
+}
+.table tbody tr td.user-info span {
+    padding-left: 2px !important;
+}
+.table tbody tr td.list-order {
+    padding: 2px !important;
+}
+.table_list_order {
+    width: 100%;
+}
+.table_list_order > tbody > tr > td,.table_list_order > thead > tr > td  {
+    padding: 2px !important;
+}
+
+.cardLogo {
+    padding: 2px;
+    /* border: 1px solid #c3c3c3; */
+    margin-right: 10px;
+    float:left;
+}
+.card_selected{
+    border:1px solid red;
+}
+.radio_item{
+    display: none !important;
+    }
+
+.label_item {
+    opacity: 0.6;
+    border: 2px solid #fff;
+    padding:3px;
+}
+    
+.radio_item:checked + label{
+    border: 2px solid #37b358;
+    opacity: 1;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+label {
+cursor: pointer;   
+}
+
+.table_noborder {
+    width:100%;
+}
+.table_noborder > tbody > tr > td {
+    padding: 5px 5px !important;
+}
+.table_napthe > tbody > tr > td {
+    padding: 5px 5px !important;
+}
+.btn-top-stats {
+    margin-top:12px !important;
+}
+.coin_weekly {
+    border: 1px solid #e6b983;
+    filter: hue-rotate(180deg);
+    height:36px
+}
+.loadingChart {
+    position: absolute;
+    height: 100%;
+    background: #ffffff;
+    width: 100%;
+    text-align: center;
+    text-align: center;
+    vertical-align: middle;
+    /* line-height: 16; */
+    opacity: .9;
+    font-weight: bold;
+    font-size: 20px;
+}
+.coin_up {
+    color:#6ca82e !important;
+}
+
+.coin_down {
+    color: #ce5c5c !important;
+}
+
+.pump_change {
+    color: green !important;
+}
+.bump_change {
+    color: red !important;
+}
+.pump_icon {
+    color: green !important;
+    font-size: 23px;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    margin-top: -3px;
+
+}
+.bump_icon {
+    color: red !important;
+    font-size: 23px;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    margin-top: -3px;
+}
+
+.coin_pump_now {
+    color: green;
+    background-color: rgb(234, 255, 234)!important;
+    -webkit-animation: fadeIt 3s ease-in-out;
+    -moz-animation: fadeIt 3s ease-in-out;
+    -o-animation: fadeIt 3s ease-in-out;
+    animation: fadeIt 3s ease-in-out;
+    transition: background-color 1s;
+
+}
+
+.coin_bump_now {
+    color: red;
+    background-color: rgb(255, 234, 234)!important;
+    -webkit-animation: fadeIt 3s ease-in-out;
+    -moz-animation: fadeIt 3s ease-in-out;
+    -o-animation: fadeIt 3s ease-in-out;
+    animation: fadeIt 3s ease-in-out;
+    transition: background-color 1s;
+
+
+}
+
+.coin_pump .csswatch {
+    color: #6ca82e!important;
+    transition: background-color 1s;
+}
+
+.coin_dump .csswatch {
+    color: #ce5c5c!important;
+    transition: background-color 1s;
+}
+
+@-webkit-keyframes fadeIt {
+    0%   { background-color: #FFFFFF; }
+    50%  { background-color: #AD301B; }
+    100% { background-color: #FFFFFF; }
+}
+@-moz-keyframes fadeIt {
+    0%   { background-color: #FFFFFF; }
+    50%  { background-color: #FFE4E4; }
+    100% { background-color: #FFFFFF; }
+}
+@-o-keyframes fadeIt {
+    0%   { background-color: #FFFFFF; }
+    50%  { background-color: #FFE4E4; }
+    100% { background-color: #FFFFFF; }
+}
+@keyframes fadeIt {
+    0%   { background-color: #FFFFFF; }
+    50%  { background-color: #FFE4E4; }
+    100% { background-color: #FFFFFF; }
+}
